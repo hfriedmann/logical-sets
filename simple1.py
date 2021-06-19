@@ -1,6 +1,8 @@
 a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 b = {1, 3, 5, 7, 9}
 c = {2, 3, 5, 7}
+  #or you can get the values from a txt:
+  #x = set(open("x.txt", 'rt', encoding='utf-8').read().splitlines())
 
 u_abc = set.union(a, b, c)
 i_abc = set.intersection(a, b, c)
