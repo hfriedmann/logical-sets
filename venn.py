@@ -18,4 +18,11 @@ venn.get_label_by_id('111').set_text('\n'.join(set1&set2&set3))
 venn.get_label_by_id('011').set_text('\n'.join(set2&set3-set1))
 venn.get_label_by_id('001').set_text('\n'.join(set3-set2-set1))
 
+
+plt.title("Riddle in the Dark")
+plt.savefig('foo.png')
+plt.savefig('foo.pdf')
+
+
+plt.show()
 plt.show()
