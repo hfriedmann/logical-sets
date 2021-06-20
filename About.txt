@@ -1,0 +1,3 @@
+a project to analyze data.
+first I tried to formulate in python (set).
+but MATPLOT already has a library with venn diagrams and this was much easier.
